@@ -1,0 +1,58 @@
+body {
+  display: block;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+form {
+  border: 5px solid #959292;
+  margin: 1% 20% 1% 20%;
+  padding: 1% 12% 1% 12%;
+}
+
+img{
+  margin-left: 30%;
+  height:5em;
+}
+
+
+footer {
+  position:relative;
+  padding-right: 15px;
+  text-align: right;
+  background-color: #4ff49f;
+}
+
+.form-items {
+    margin-bottom: 1%;
+}
+  
+label {
+    display: block;
+    margin-bottom: 2%;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 3%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+button[type="submit"] {
+    padding: 2% 2%;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+}
+  
+.error-message {
+    color: red;
+    font-size: 80%;
+    margin-top: 1%;
+}
+  
